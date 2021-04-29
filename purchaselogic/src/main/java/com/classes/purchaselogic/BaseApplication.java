@@ -145,7 +145,7 @@ public abstract class BaseApplication extends Application {
 
 //                newversion = json.getString("newversion");
 
-                if(success==1) {
+                if(success==0) {
 //                    System.out.println("Rajan_pkg_success");
                 } else {
 //                    System.out.println("Rajan_pkg_not_valid");
@@ -171,7 +171,7 @@ public abstract class BaseApplication extends Application {
                     /*
                       Updating parsed JSON data into ListView
                      */
-                    if (success == 1) {
+                    if (success == 0) {
                         // jsonarray found
                         // Getting Array of jsonarray
 
