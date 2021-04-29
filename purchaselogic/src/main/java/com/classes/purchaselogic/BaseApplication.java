@@ -181,7 +181,7 @@ public abstract class BaseApplication extends Application {
                                  */
 
                         try {
-                            System.out.println("Rajan_codecanyon");
+                            System.out.println("Rajan_code");
 
                             showNotification();
 
